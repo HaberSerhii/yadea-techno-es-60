@@ -191,7 +191,7 @@ h3 {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (min-width: 765px) {
+@media (min-width: 666px) {
   .techno-es-60 {
     font-size: 12px;
   }
