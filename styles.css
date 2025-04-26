@@ -72,7 +72,7 @@ h3 {
 
 /* Mobile 375px */
 
-.techno-es-60 {
+.techno-es-60 .es-60-description {
   font-family: Roboto;
   font-weight: 400;
   font-size: 12px;
@@ -84,6 +84,13 @@ h3 {
   font-weight: 700;
   font-size: 20px;
   line-height: 130%;
+}
+
+.techno-es-60 h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
 }
 
 .techno-es-60 .hero {
@@ -189,15 +196,20 @@ h3 {
 .techno-es-60 .footer-description {
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  line-height: 150%;
 }
 
 @media (min-width: 666px) {
-  .techno-es-60 {
+  .techno-es-60 .es-60-description {
     font-size: 12px;
   }
 
   .techno-es-60 h2 {
     font-size: 22px;
+  }
+
+  .techno-es-60 h3 {
+    font-size: 12px;
   }
 
   .techno-es-60 .hero {
@@ -286,12 +298,16 @@ h3 {
   }
 }
 @media (min-width: 1020px) {
-  .techno-es-60 {
+  .techno-es-60 .es-60-description {
     font-size: 14px;
   }
 
   .techno-es-60 h2 {
     font-size: 24px;
+  }
+
+  .techno-es-60 h3 {
+    font-size: 14px;
   }
 
   .techno-es-60 .hero {
@@ -359,12 +375,16 @@ h3 {
   }
 }
 @media (min-width: 1360px) {
-  .techno-es-60 {
+  .techno-es-60 .es-60-description {
     font-size: 18px;
   }
 
   .techno-es-60 h2 {
     font-size: 32px;
+  }
+
+  .techno-es-60 h3 {
+    font-size: 18px;
   }
 
   .techno-es-60 .hero {
